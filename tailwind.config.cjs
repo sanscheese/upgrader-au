@@ -4,16 +4,16 @@ module.exports = {
 		extend: {
       colors: {
         pink: {
-          // 50: '#fdf8f6',
-          // 100: '#f2e8e5',
-          // 200: '#eaddd7',
-          // 300: '#e0cec7',
-          // 400: '#d2bab0',
-          500: '#FF80CA',
-          600: '#CC5299',
-          700: '#992E6C',
-          800: '#661444',
-          900: '#330520',
+          50: '#FFD9EE',
+          100: '#FFD9EE',
+          200: '#FFA4D6',
+          300: '#FF73C0',
+          400: '#FF45AB',
+          500: '#FF1795',
+          600: '#CF147A',
+          700: '#990F5A',
+          800: '#660A3C',
+          900: '#33051E',
         },
       },
       fontFamily: {
@@ -48,23 +48,39 @@ module.exports = {
 //     "swatches": [
 //       {
 //         "name": "New Swatch",
-//         "color": "330520"
+//         "color": "33051E"
 //       },
 //       {
 //         "name": "New Swatch",
-//         "color": "661444"
+//         "color": "660A3C"
 //       },
 //       {
 //         "name": "New Swatch",
-//         "color": "992E6C"
+//         "color": "990F5A"
 //       },
 //       {
 //         "name": "New Swatch",
-//         "color": "CC5299"
+//         "color": "CF147A"
 //       },
 //       {
 //         "name": "New Swatch",
-//         "color": "FF80CA"
+//         "color": "FF1795"
+//       },
+//       {
+//         "name": "New Swatch",
+//         "color": "FF45AB"
+//       },
+//       {
+//         "name": "New Swatch",
+//         "color": "FF73C0"
+//       },
+//       {
+//         "name": "New Swatch",
+//         "color": "FFA4D6"
+//       },
+//       {
+//         "name": "New Swatch",
+//         "color": "FFD9EE"
 //       }
 //     ]
 //   }
