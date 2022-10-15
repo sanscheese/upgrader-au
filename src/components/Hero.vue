@@ -13,23 +13,23 @@
                 <div class="flex w-full items-center justify-between md:w-auto">
                   <a href="#">
                     <span class="sr-only">Upgrader</span>
-                    <img alt="Upgrader" class="h-8 w-auto sm:h-14" src="/assets/svg/upgrader-logo.svg" />
+                    <img alt="Upgrader" class="h-12 w-auto sm:h-14" src="/assets/svg/upgrader-logo.svg" />
                   </a>
-                  <div class="-mr-2 flex items-center md:hidden">
+                  <!-- <div class="-mr-2 flex items-center md:hidden">
                     <PopoverButton class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500">
                       <span class="sr-only">Open main menu</span>
                       <Bars3Icon class="h-6 w-6" aria-hidden="true" />
                     </PopoverButton>
-                  </div>
+                  </div> -->
                 </div>
               </div>
-              <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
+              <!-- <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                 <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-medium text-gray-500 hover:text-gray-900">{{ item.name }}</a>
-              </div>
+              </div> -->
             </nav>
           </div>
 
-          <transition enter-active-class="duration-150 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
+          <!-- <transition enter-active-class="duration-150 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
             <PopoverPanel focus class="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
               <div class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
                 <div class="flex items-center justify-between px-5 pt-4">
@@ -48,7 +48,7 @@
                 </div>
               </div>
             </PopoverPanel>
-          </transition>
+          </transition> -->
         </Popover>
 
         <main class="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -56,12 +56,12 @@
             <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
               <span class="block xl:inline">Efficient homes.</span>
               {{ ' ' }}
-              <span class="block text-pink-600 xl:inline">Savings all round.</span>
+              <span class="block text-pink-500 xl:inline">Savings all round.</span>
             </h1>
             <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div class="rounded-md shadow">
-                <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-pink-600 px-8 py-3 text-base font-medium text-white hover:bg-pink-700 md:py-4 md:px-10 md:text-lg">Get started</a>
+                <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-pink-500 px-8 py-3 text-base font-medium text-white hover:bg-pink-600 md:py-4 md:px-10 md:text-lg">Get started</a>
               </div>
               <div class="mt-3 sm:mt-0 sm:ml-3">
                 <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-pink-100 px-8 py-3 text-base font-medium text-pink-700 hover:bg-pink-200 md:py-4 md:px-10 md:text-lg">Live demo</a>
